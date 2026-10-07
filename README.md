@@ -1,5 +1,7 @@
 # csp-demo
 
+**[Source article](https://blog.piotrnalepa.pl/2026/10/07/dlaczego-moje-tabele-skladaly-sie-w-jedna-kolumne-strict-csp-vs-inline-styles-w-react/)**
+
 Why a strict Content Security Policy collapses a server-rendered grid table into
 one column - only after a refresh - and four ways to fix it, measured.
 
