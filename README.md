@@ -1,4 +1,4 @@
-# csp-demo
+# csp-issue-demo
 
 **[Source article](https://blog.piotrnalepa.pl/2026/10/07/dlaczego-moje-tabele-skladaly-sie-w-jedna-kolumne-strict-csp-vs-inline-styles-w-react/)**
 

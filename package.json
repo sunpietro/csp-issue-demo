@@ -1,5 +1,5 @@
 {
-  "name": "csp-demo",
+  "name": "csp-issue-demo",
   "version": "1.0.0",
   "private": true,
   "description": "Why a strict Content Security Policy collapses server-rendered grid tables, and four ways to fix it",
@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "*",
-    "@types/react": "*",
-    "@types/react-dom": "*",
-    "typescript": "*"
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
   }
 }
