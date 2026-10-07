@@ -1,0 +1,62 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 2rem auto;
+  max-width: 60rem;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #8884;
+}
+
+/* The table is a CSS grid. Without grid-template-columns, a grid has a single
+   implicit column, so every cell lands on its own line. */
+.grid {
+  display: grid;
+  border: 1px solid #8884;
+  border-radius: 6px;
+}
+
+.row {
+  display: contents;
+}
+
+.row > * {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #8883;
+}
+
+.row.head > * {
+  font-weight: 600;
+}
+
+/* Fix 1: the layout is known at build time, so it lives in a stylesheet. */
+.cols-packages {
+  grid-template-columns: minmax(12rem, 2fr) 7rem 9rem 6rem;
+}
+
+/* Fix 2: hidden until a script sets the columns through the CSSOM. */
+.cssom-pending {
+  visibility: hidden;
+}
+
+.cases > div {
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  border: 1px solid #8884;
+}
+
+.results th,
+.results td {
+  padding: 0.25rem 0.75rem;
+  text-align: left;
+}

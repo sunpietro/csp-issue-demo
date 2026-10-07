@@ -1,0 +1,25 @@
+{
+  "name": "csp-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Why a strict Content Security Policy collapses server-rendered grid tables, and four ways to fix it",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "report": "node scripts/report.mjs",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "*"
+  }
+}
