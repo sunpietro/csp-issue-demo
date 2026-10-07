@@ -5,3 +5,8 @@ next-env.d.ts
 test-results/
 playwright-report/
 .DS_Store
+
+# Blog post drafts and images, kept locally
+ARTICLE.md
+ARTICLE.pl.md
+images/
